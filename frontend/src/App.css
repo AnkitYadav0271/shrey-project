@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family:'Zilla Slab' Raleway,serif;
+  font-size: 16px;
+}
+
+:root {
+  --nav-bg-clr:rgb(162, 5, 5);
+  --btm-nav-bg-color:#14181D;
+  --body-bg-clr:#fff;
+  --icons-color:#DAA112;
+  --another-red:#df2534;
+}
+
+body {
+  background-color: var(--body-bg-clr);
+}

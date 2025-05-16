@@ -1,0 +1,68 @@
+[
+  {
+    "id": 4,
+    "name": "Mr. Sonvir Singh",
+    "slug": "mr-sonvir-singh",
+    "img_url": "sonvir_sir.jpeg.jpg",
+    "qualification": "Bachelor of Technology (B.Tech) in Computer Science",
+    "experience": "5 years",
+    "email": "sonvirsingh036@gmail.com",
+    "role": "Head of Department (HOD)",
+    "about": "Mr. Sonvir Singh is a seasoned educator and the Head of Department with over 5 years of experience in computer science education. He is passionate about integrating modern technologies into the curriculum to prepare students for the evolving tech landscape. His leadership has fostered a collaborative environment encouraging research and innovation among faculty and students alike. Mr. Singh emphasizes practical learning and industry exposure to bridge the gap between academics and real-world applications. He has successfully led multiple workshops and seminars on emerging technologies such as AI and Machine Learning. Apart from academics, he is actively involved in mentoring students and guiding them in their career paths. His approachable nature and dedication to student success make him a respected figure in the department. Under his guidance, the department has seen significant improvements in both academic results and placement records."
+  },
+  {
+    "id": 3,
+    "name": "Mrs. Preeti Pandey",
+    "slug": "mrs-preeti-pandey",
+    "img_url": "priti_mam.jpeg.jpg",
+    "qualification": "Bachelor of Technology (B.Tech) in Electrical Engineering",
+    "experience": "4 years",
+    "email": "preetiee0034@gmail.com",
+    "role": "Lecturer",
+    "about": "Mrs. Preeti Pandey is a dedicated lecturer with 4 years of experience in electrical engineering education. She believes in creating an interactive classroom environment where students are encouraged to ask questions and engage deeply with the subject. Her teaching methodology combines theoretical concepts with practical experiments to enhance understanding. Mrs. Pandey has contributed to curriculum development, ensuring it aligns with the latest industry standards. She regularly organizes lab sessions and hands-on workshops to give students real-world experience. Her research interests include renewable energy systems and smart grid technologies. She actively participates in faculty development programs to continuously upgrade her skills. Mrs. Pandey is known for her patience and commitment to helping students achieve their academic goals."
+  },
+  {
+    "id": 2,
+    "name": "Mr. Prachi Singh",
+    "slug": "miss-prachi-singh",
+    "img_url": "prachi_mam.jpeg.jpg",
+    "qualification": "Master of Technology (M.Tech) in Electronics and Communication",
+    "experience": "3 Years",
+    "email": "prachisinghsrmgpc@gmail.com",
+    "role": "Lecturer",
+    "about": "Mr. Prachi Singh is an enthusiastic lecturer specializing in electronics and communication with a strong academic background. He is passionate about fostering innovation and critical thinking among students. His lectures focus on both fundamental theories and their practical applications in modern communication systems. Mr. Singh encourages students to participate in research projects and technical competitions to enhance their skills. He has published papers in reputed journals and is keen on guiding students in their research endeavors. His approach to teaching includes using multimedia tools and real-time simulations to make complex topics accessible. He is also involved in community outreach programs to promote STEM education. Students appreciate his clarity of explanation and willingness to provide extra support."
+  },
+  {
+    "id": 5,
+    "name": "Miss. Shagufta Parveen",
+    "slug": "miss-shagufta-parveen",
+    "img_url": "shagufta_mam.jpeg.jpg",
+    "qualification": "B.Tech (ME)",
+    "experience": "3 Years",
+    "email": "khushbuansari003@gmail.com",
+    "role": "Lecturer",
+    "about": "Miss Shagufta Parveen is a passionate mechanical engineering lecturer committed to delivering quality education. She emphasizes the importance of hands-on learning and encourages students to engage in practical projects. Her teaching style integrates traditional lectures with interactive sessions and real-world case studies. Miss Parveen actively supports students in developing problem-solving skills essential for engineering challenges. She has been involved in organizing technical workshops and seminars to broaden students' knowledge. Her interests include sustainable engineering and innovative manufacturing processes. She continuously updates her teaching materials to incorporate the latest technological advancements. Students find her approachable and motivating, which fosters a positive learning environment."
+  },
+  {
+    "id": 6,
+    "name": "Miss. Sapna Yadav",
+    "slug": "miss-sapna-yadav",
+    "img_url": "sapna_mam.jpeg.jpg",
+    "qualification": "B.Tech (CE)",
+    "experience": "3 Years",
+    "email": "sapnayadv132@gmail.com",
+    "role": "Lecturer",
+    "about": "Miss Sapna Yadav specializes in civil engineering and is dedicated to nurturing the next generation of engineers. She focuses on combining theoretical knowledge with practical site experience in her teaching. Miss Yadav encourages collaborative learning and teamwork through group projects and assignments. Her expertise includes structural analysis, construction management, and environmental engineering. She actively participates in professional development workshops to stay current with industry trends. Miss Yadav mentors students for internships and career opportunities in the civil engineering sector. Her commitment to student success is reflected in her personalized guidance and support. She strives to create an inclusive and engaging classroom atmosphere where all students thrive."
+  },
+  {
+    "id": 1,
+    "name": "Mr. Navin Verma",
+    "slug": "mr-navin-verma",
+    "img_url": "navin_sir.jpeg.jpg",
+    "qualification": " B.Tech (CSE)",
+    "experience": "4 Years",
+    "email": "nv25101997@gmail.com",
+    "role": "Lecturer",
+    "about": "Mr. Navin Verma is an IT lecturer with a strong focus on software development and emerging technologies. He integrates practical coding exercises and real-world projects into his curriculum to enhance learning. Mr. Verma is passionate about preparing students for the fast-paced IT industry by teaching current best practices. He encourages continuous learning and professional growth among his students. His areas of interest include web development, cloud computing, and cybersecurity. He actively collaborates with industry professionals to bring guest lectures and workshops to the classroom. Mr. Verma is known for his clear explanations and dedication to student mentorship. He strives to inspire innovation and creativity in every student he teaches."
+  }
+]

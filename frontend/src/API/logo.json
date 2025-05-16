@@ -1,0 +1,28 @@
+[
+  {
+    "section1": [
+      { "id": 11,
+       "img_url": "bharat.svg"
+     },
+      { "id": 12, "img_url": "Asia_MotorWorks-Logowine.svg" },
+      { "id": 13, "img_url": "Eiecher.svg" },
+      { "id": 14, "img_url": "Fuji_Electric-Logowine.svg" },
+      { "id": 15, "img_url": "Furukawa_Electric-Logowine.svg" },
+      { "id": 16, "img_url": "Havells-Logowine.svg" },
+      { "id": 17, "img_url": "Indian_Oil_Corporation-Logo.wine.svg" },
+      { "id": 18, "img_url": "Hero_MotoCorp-Logo.wine.svg" },
+    
+  
+  
+     
+      { "id": 21, "img_url": "Hindustan_Motors-Logo.wine.svg" },
+      { "id": 22, "img_url": "Mahindra__26_Mahindra-Logowine.svg" },
+      { "id": 23, "img_url": "Reliance_Industries_Limited-Logo.wine.svg" },
+      { "id": 24, "img_url": "Suzlon-Logowine.svg" },
+      { "id": 25, "img_url": "Sumitomo_Electric_Industries-Logowine.svg" },
+      { "id": 26, "img_url": "Thermax-Logowine.svg" },
+      { "id": 27, "img_url": "Hinduja_Group-Logowine.svg" },
+      { "id": 28, "img_url": "Swaraj_Mazda-Logowine.svg" }
+    ]
+  }
+]

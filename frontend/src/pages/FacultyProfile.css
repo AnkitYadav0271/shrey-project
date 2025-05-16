@@ -1,0 +1,101 @@
+
+.faculty-profile-container{
+    width: 80%;
+   margin: auto;
+   padding: 3rem 0px 3rem 0px;
+   top: 2rem;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+   margin-bottom: 3rem;
+   & img {
+    height: 100%;
+   }
+   & p {
+    font-size: 2rem;
+    color: #000;
+   }
+   
+   
+}
+
+.faculty-profile-container .about-para { 
+    font-size: 1.3rem;
+    line-height: 1.7rem;
+    margin-top: 1.6rem;
+}
+
+.register-container {
+    min-width: 80%;
+    position: relative;
+    & h1 {
+        color: var(--body-bg-clr);
+        position: absolute;
+        left: 40%;
+    }
+}
+.faculty-image-at-profile  {
+    display: flex;
+        padding: 1rem;
+        margin: 2rem;
+        gap: 1rem;
+        backdrop-filter: blur(10px);
+        background: rgba(255, 255, 255, 0.2);
+        box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
+        border-radius: 15px;
+        width: 20rem;
+        height: 20rem;
+        justify-content: center;
+        align-items: center;
+        
+        & img {
+            object-fit: cover;
+            border-radius: 1rem;
+            -webkit-border-radius: 1rem;
+            -moz-border-radius: 1rem;
+            -ms-border-radius: 1rem;
+            -o-border-radius: 1rem;
+}
+}
+
+.other-faculty-links {
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#4c4c4c+0,595959+12,666666+25,474747+39,2c2c2c+50,000000+51,111111+60,2b2b2b+76,1c1c1c+91,131313+100;Black+Gloss+%231 */
+    background: linear-gradient(to bottom, #4c4c4c 0%, #595959 12%, #666666 25%, #474747 30%, #2c2c2c 36%, #000000 51%, #111111 60%, #2b2b2b 76%, #1c1c1c 91%, #131313 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    position: absolute;
+    left: 0%;
+    width: 20rem;
+    border-radius: 0px 1rem 0px 1rem;
+    -webkit-border-radius: 0px 1rem 0px 1rem;
+    -moz-border-radius: 0px 1rem 0px 1rem;
+    -ms-border-radius: 0px 1rem 0px 1rem;
+    -o-border-radius: 0px 1rem 0px 1rem;
+    & .heading h1 {
+        font-family: monospace;
+        padding: 1rem;
+    }
+
+        & .heading h1::after {
+            content: "";
+            display: block;
+            
+            height: 2px;
+            top: 1rem;
+            background-color: var(--body-bg-clr);
+        }
+        ul li a {
+            font-family: monospace;
+            font-size: 1.3rem;
+            padding: 1rem;
+           &:last-child{
+            margin-bottom: 1rem;
+           }
+        }
+    }
+    
+   
+ 
+
+    

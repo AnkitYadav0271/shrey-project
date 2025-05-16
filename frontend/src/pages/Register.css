@@ -1,0 +1,139 @@
+
+h1 {
+    color: black;
+}
+
+.register-container-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+.header-register {
+    margin-top: 1rem;
+    width: 80%;
+    height: 3rem;
+    justify-content: space-around;
+    & h1 {
+        color: #fff;
+    }
+
+}
+.form-container {
+    border: 1px solid black;
+    width: 30%;
+& form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    & input {
+        margin: 1rem;
+        
+        height: 2rem;
+        box-sizing: border-box;
+        font-size: 1rem;
+        border: none;
+        border-bottom: 2px solid #000;
+    }
+    &:first-child {
+        margin-top: 1rem;
+    }
+    & label {
+        margin-left: 1rem;
+    }
+}
+}
+
+input[type="email"]:focus {
+    border: none;
+    outline: none;
+    border-color: #006d5b;
+    background-color: #e0f7f4;
+}
+
+input[type="number"]:focus {
+    border: none;
+    outline: none;
+    border-color: #006d5b;
+    background-color: #e0f7f4;
+}
+select#courses {
+    width: 100%;
+    
+    max-width: 300px;
+    padding: 8px 40px 8px 12px;
+    margin: auto;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    background-image: url("data:image/svg+xml;utf8,<svg fill='gray' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/></svg>");
+    background-repeat: no-repeat;
+    background-position: right 12px center;
+    background-size: 16px 16px;
+    appearance: none;
+    
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    cursor: pointer;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    box-sizing: border-box;
+}
+
+select#courses:focus {
+    border-color: #3399ff;
+    box-shadow: 0 0 5px rgba(51, 153, 255, 0.5);
+    outline: none;
+    background-color: #e6f2ff;
+    
+}
+
+
+select#courses option {
+    background-color: #fff;
+    color: #333;
+}
+
+button[type="submit"] {
+    background-color: #3399ff;
+    
+    color: white;
+    width: 60%;
+    border: none;
+    margin: auto;
+    margin-bottom: 2rem;
+    padding: 10px 20px;
+    
+    font-size: 1rem;
+    
+    border-radius: 5px;
+    
+    cursor: pointer;
+   
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 2px 5px rgba(51, 153, 255, 0.4);
+}
+
+button[type="submit"]:hover {
+    background-color: #287acc;
+   
+    box-shadow: 0 4px 8px rgba(40, 122, 204, 0.6);
+}
+
+button[type="submit"]:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(51, 153, 255, 0.6);
+}
+
+.error {
+    color: red;
+    font-size: 0.9rem;
+    margin-top: 4px;
+    margin-bottom: 8px;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}

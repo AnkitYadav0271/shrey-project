@@ -1,0 +1,42 @@
+
+.faculty-container {
+    margin-top: 3rem;
+    max-width: 80%;
+    margin: auto;
+    border-bottom: 1px solid black;
+}
+.introduction {
+    margin-left: 3rem;
+    & h1 {
+        font-size: 2rem;
+        font-family: monospace;
+    }
+}
+.faculty-detail-container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    & ul li {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+/* ? Responsive Code starts here  */
+@media only screen and (max-width:1000px) {
+   .faculty-container .faculty-detail-container {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media only screen and (max-width:600px) {
+   .faculty-container .faculty-detail-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+/* ? Responsive Code ends here */

@@ -1,0 +1,120 @@
+/**  Container css starts here  */
+header {
+    background-color: var(--nav-bg-clr);
+    max-width: 132rem;
+    margin: auto;
+   
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+
+}
+.top-header-container {
+    display: flex;
+    justify-content: space-around;
+    & .top-nav-links  {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 1rem;
+        }
+        & ul {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 1rem;
+
+        }
+}
+ /**  All the common li and links css is here  */
+li {
+    list-style-type: none;
+    cursor: pointer;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.3rem;
+}
+h1 ,h2, h3,h4,h5,h6 {
+    color: #fff;
+}
+/** bottom nav-links css is here*/
+.bottom-header-container {
+    background-color: var(--btm-nav-bg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    & ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 2rem;
+        gap: 2rem;
+    }
+}
+
+/** logo css is here */ */
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img {
+    height: 4.98rem;
+    width: 4.98rem;
+    margin: auto;
+}
+
+/**  Search input css is here  */
+.search-container{
+    display: flex;
+    background-color: #fff;
+    max-width: 7rem;
+    min-height: 2rem;
+    border-radius: 1.3rem;
+    
+    -webkit-border-radius: 1.3rem;
+    -moz-border-radius: 1.3rem;
+    -ms-border-radius: 1.3rem;
+    -o-border-radius: 1.3rem;
+& .relative{
+        display: flex;
+        position: relative;
+        background-color: #fff;
+        border-radius: 2rem;
+        -webkit-border-radius: 2rem;
+        -moz-border-radius: 2rem;
+        -ms-border-radius: 2rem;
+        -o-border-radius: 2rem;
+} & .search-icon {
+        color: #aaa;
+        font-size: 1.2rem;
+        position: absolute;
+        left: 3.7rem;
+        top: .3rem;
+        
+    } & input[type='text']{
+        width: 100%;
+        
+        border-radius: 8px;
+        font-size: 1rem;
+        padding: 2px;
+        border: none;
+        box-shadow: 0 0 8px #eee;
+
+    }
+}
+
+input[type="text"]:focus{
+    border: none;
+    outline: none;
+    border-color: #006d5b;
+    background-color: #e0f7f4;
+}
+input[type="text"]::placeholder{
+    color: #aaa;
+    font-style: italic;
+}
