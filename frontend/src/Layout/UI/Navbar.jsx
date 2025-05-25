@@ -28,8 +28,8 @@ export const Navbar = () => {
             </div>
             <div className="bottom-header-container">
                 <ul>
-                    <li><NavLink to='/Home'>Home</NavLink></li>
-                    <li><NavLink to='#'>Events</NavLink></li>
+                    <li><NavLink to='/home'>Home</NavLink></li>
+                    <li><NavLink to='/events'>Events</NavLink></li>
                     <li><NavLink to='/academics'>Academics</NavLink></li>
                     <li><NavLink to='#'>Results</NavLink></li>
                     <li><NavLink to='#'>CampusLife</NavLink></li>

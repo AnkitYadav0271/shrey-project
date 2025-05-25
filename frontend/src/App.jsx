@@ -9,6 +9,7 @@ import { About } from "./pages/About";
 import { Jokes } from "./pages/Jokes";
 import { ErrorPage } from "./pages/ErrorPage";
 import { FacultyProfile } from "./pages/FacultyProfile";
+import {Event} from "./pages/event.jsx";
 
 
 const router = createBrowserRouter([
@@ -48,6 +49,10 @@ const router = createBrowserRouter([
       {
         path:'/faculty/:slug',
         element:<FacultyProfile></FacultyProfile>
+      },
+      {
+        path: "/events",
+        element: <Event/>
       }
     ],
   },
