@@ -7,7 +7,7 @@ export const Navbar = () => {
             <div className="container">
             <div className="top-header-container">
                 <div className="logo">
-                <img src="logo.png" alt="logo image"  />
+                <img src="/logo.png" alt="logo image"  />
                 </div>
                 <div className="top-nav-links">
                     <h1>Information For:</h1>
@@ -15,7 +15,7 @@ export const Navbar = () => {
                        <li><NavLink to="#">Students</NavLink></li>
                        <li><NavLink to="/faculty">Faculty&Staff</NavLink></li>
                        <li><NavLink to="#">Family</NavLink></li>
-                       <li><NavLink to="#">Alumni</NavLink></li>
+                       <li><NavLink to="/principle-login">Principle Login</NavLink></li>
                     </ul>
                     <div className="search-container">{
                         <div className="relative">

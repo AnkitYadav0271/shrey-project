@@ -49,7 +49,14 @@ input[type="email"]:focus {
     border: none;
     outline: none;
     border-color: #006d5b;
-    background-color: #e0f7f4;
+
+}
+
+input[type="password"]:focus {
+    border: none;
+    outline: none;
+    border-color: #006d5b;
+
 }
 
 input[type="number"]:focus {

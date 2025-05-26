@@ -10,6 +10,7 @@ import { Jokes } from "./pages/Jokes";
 import { ErrorPage } from "./pages/ErrorPage";
 import { FacultyProfile } from "./pages/FacultyProfile";
 import {Event} from "./pages/event.jsx";
+import {PLogin} from "./pages/PLogin.jsx";
 
 
 const router = createBrowserRouter([
@@ -53,6 +54,10 @@ const router = createBrowserRouter([
       {
         path: "/events",
         element: <Event/>
+      },
+      {
+        path: "/principle-login",
+        element: <PLogin/>
       }
     ],
   },
