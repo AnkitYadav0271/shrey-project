@@ -1,11 +1,12 @@
 import { useNavigate } from "react-router-dom";
+import "./errorPage.css"
 
 
 export const ErrorPage = () => {
 
     const navigate = useNavigate();
     const goHome = () => {
-        navigate('/home');
+        navigate('/');
     }
 
     const back = () => {
@@ -13,12 +14,12 @@ export const ErrorPage = () => {
     }
     return (
         
-        <>
+        <div className={"error-container"}>
        <h1>Oh! No we do not contain this Page</h1>
        <div className="buttons">
-        <button onClick={goHome}>Go Home</button>
-        <button onClick={back}>Go Back</button>
+        <button onClick={goHome} className={"error-button"}>Go Home</button>
+        <button onClick={back} className={"error-button"}>Go Back</button>
        </div>
-        </>
+        </div>
     );
 }

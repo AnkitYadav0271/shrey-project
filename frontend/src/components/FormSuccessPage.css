@@ -1,0 +1,51 @@
+.success-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    background: #f8f9fa;
+}
+
+.success-card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 3rem 2.5rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+}
+
+.success-icon {
+    font-size: 4rem;
+    color: #38a169;
+    margin-bottom: 1.5rem;
+}
+
+.success-card h2 {
+    font-size: 1.8rem;
+    color: #2c3e50;
+    margin-bottom: 1rem;
+}
+
+.success-card p {
+    font-size: 1.1rem;
+    color: #4a5568;
+    margin-bottom: 2rem;
+}
+
+.home-btn {
+    background: #3182ce;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.home-btn:hover {
+    background: #2b6cb0;
+}

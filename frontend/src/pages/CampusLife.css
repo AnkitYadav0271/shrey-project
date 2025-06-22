@@ -1,0 +1,112 @@
+.campus-life-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.campus-life-header {
+    text-align: center;
+    margin-bottom: 3rem;
+    padding: 1rem;
+    background: #f8f9fa;
+    border-radius: 10px;
+}
+
+.campus-life-header h1 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin-bottom: 1rem;
+}
+
+.campus-life-header p {
+    font-size: 1.2rem;
+    color: #4a5568;
+}
+
+.clubs-section, .events-section, .highlights-section, .gallery-section {
+    margin-bottom: 3rem;
+}
+
+.clubs-section h2, .events-section h2, .highlights-section h2, .gallery-section h2 {
+    font-size: 1.8rem;
+    color: #2c3e50;
+    margin-bottom: 1.5rem;
+    border-bottom: 2px solid #e2e8f0;
+    padding-bottom: 0.5rem;
+}
+
+.clubs-grid, .events-grid, .gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
+.club-card, .event-card {
+    background: #fff;
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+    text-align: center;
+}
+
+.club-card:hover, .event-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+.club-icon, .event-icon {
+    font-size: 2rem;
+    color: #3182ce;
+    margin-bottom: 1rem;
+}
+
+.club-card h3, .event-card h3 {
+    font-size: 1.3rem;
+    color: #2c3e50;
+    margin-bottom: 1rem;
+}
+
+.club-card p, .event-card p {
+    font-size: 1rem;
+    color: #4a5568;
+    margin: 0;
+}
+
+.highlights-list {
+    list-style: none;
+    padding: 0;
+}
+
+.highlight-item {
+    background: #fff;
+    border-radius: 8px;
+    padding: 1rem 1.5rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    font-size: 1.1rem;
+}
+
+.gallery-grid img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+    transition: transform 0.2s;
+}
+
+.gallery-grid img:hover {
+    transform: scale(1.03);
+}
+
+.campus-life-footer {
+    text-align: center;
+    margin-top: 3rem;
+    padding: 1rem;
+    background: #f8f9fa;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    color: #4a5568;
+}

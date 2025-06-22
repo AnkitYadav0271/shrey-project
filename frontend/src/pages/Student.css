@@ -1,0 +1,100 @@
+.student-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.student-header {
+    text-align: center;
+    margin-bottom: 3rem;
+    padding: 1rem;
+    background: #f8f9fa;
+    border-radius: 10px;
+}
+
+.student-header h1 {
+    font-size: 2.2rem;
+    color: #2c3e50;
+    margin-bottom: 1rem;
+}
+
+.student-header p {
+    font-size: 1.1rem;
+    color: #4a5568;
+}
+
+section {
+    margin-bottom: 3rem;
+}
+
+section h2 {
+    font-size: 1.8rem;
+    color: #2c3e50;
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.routine-grid, .academic-grid, .campus-grid, .resources-grid, .calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
+.routine-card, .academic-card, .campus-card, .resource-card, .date-card {
+    background: #fff;
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.routine-card:hover, .academic-card:hover, .campus-card:hover, .resource-card:hover, .date-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+.routine-card h3, .academic-card h3, .campus-card h3, .resource-card h3, .date-card h3 {
+    font-size: 1.3rem;
+    color: #2c3e50;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+ul {
+    padding-left: 1.2rem;
+    margin: 0;
+}
+
+.student-li {
+    margin-bottom: 0.5rem;
+    list-style-type: disc;
+}
+
+.student-footer {
+    text-align: center;
+    margin-top: 3rem;
+    padding: 1rem;
+    background: #f8f9fa;
+    border-radius: 10px;
+}
+
+.student-footer p {
+    font-size: 1rem;
+    color: #4a5568;
+}
+
+.student-footer a {
+    color: #3182ce;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.student-footer a:hover {
+    text-decoration: underline;
+}

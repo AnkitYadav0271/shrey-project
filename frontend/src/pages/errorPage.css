@@ -1,0 +1,25 @@
+
+.error-button {
+    background: blue;
+    border-radius: 24px;
+    padding: 2px 4px;
+    border: none;
+    width: 5rem;
+    height: 2rem;
+    margin-top: 2rem;
+    margin-left: 4rem;
+    margin-right: 2rem;
+    margin-bottom: 3rem;
+    color: white;
+    cursor: pointer;
+
+}
+
+.error-container {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}

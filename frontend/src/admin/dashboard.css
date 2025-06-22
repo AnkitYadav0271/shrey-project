@@ -1,0 +1,250 @@
+/* Enhanced Principal Dashboard Styles */
+.principal-dashboard {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #f8fafc;
+    color: #2d3748;
+}
+
+.dashboard-header {
+    background: linear-gradient(90deg, #4CAF50, #81C784);
+    color: white;
+    border-radius: 12px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo img {
+    width: 40px;
+    height: 40px;
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.user-info img {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: white;
+    padding: 2px;
+}
+
+.dashboard-content section {
+    margin-bottom: 30px;
+    background: #fff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.dashboard-content h2 {
+    color: #2d3748;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 1.4rem;
+    font-weight: 600;
+    border-bottom: 2px solid #e2e8f0;
+    padding-bottom: 10px;
+}
+
+.kpi-grid,
+.analytics-grid,
+.attendance-grid,
+.resource-grid,
+.updates-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 20px;
+    margin-top: 15px;
+}
+
+.kpi-card,
+.analytics-card,
+.attendance-card,
+.resource-card,
+.notifications-card,
+.activity-card,
+.programs-card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.07);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+    border: 1px solid #e2e8f0;
+}
+
+
+.kpi-card:hover,
+.analytics-card:hover,
+.attendance-card:hover,
+.resource-card:hover,
+.notifications-card:hover,
+.activity-card:hover,
+.programs-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.kpi-card img,
+.analytics-card img,
+.attendance-card img,
+.resource-card img,
+.notifications-card img,
+.activity-card img,
+.programs-card img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 15px;
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1));
+}
+
+.kpi-card h3,
+.analytics-card h3,
+.attendance-card h3,
+.resource-card h3,
+.notifications-card h3,
+.activity-card h3 {
+    margin: 0 0 10px;
+    color: #2d3748;
+    font-size: 1.1rem;
+}
+
+.kpi-card p,
+.analytics-card p,
+.attendance-card p,
+.resource-card p {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #4CAF50;
+}
+
+.incident-list,
+.notification-list,
+.activity-list,
+.resource-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.incident-list li,
+.notification-list li,
+.activity-list li,
+.resource-card li {
+    padding: 12px 0;
+    border-bottom: 1px solid #e2e8f0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.incident-list li:last-child,
+.notification-list li:last-child,
+.activity-list li:last-child,
+.resource-card li:last-child {
+    border-bottom: none;
+}
+
+.notification-list li.warning {
+    color: #e67e22;
+}
+
+.notification-list li.info {
+    color: #3498db;
+}
+
+.lookup-card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.07);
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.lookup-card img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.search-input {
+    width: 100%;
+    max-width: 400px;
+    padding: 12px 15px;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    font-size: 1rem;
+    outline: none;
+    transition: border 0.2s;
+}
+
+.search-input:focus {
+    border-color: #4CAF50;
+}
+
+.filter-btn {
+    padding: 10px 20px;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 1rem;
+    transition: background 0.2s;
+}
+
+.filter-btn:hover {
+    background: #388e3c;
+}
+
+.filter-btn img {
+    width: 20px;
+    height: 20px;
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+
+    .kpi-grid,
+    .analytics-grid,
+    .attendance-grid,
+    .resource-grid,
+    .updates-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .header-content {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+}

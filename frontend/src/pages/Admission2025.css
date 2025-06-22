@@ -1,0 +1,165 @@
+/* Admission page container */
+.admission-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+/* Header section */
+.header-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+    gap: 30px;
+}
+@media (min-width: 768px) {
+    .header-section {
+        flex-direction: row;
+        align-items: center;
+    }
+}
+
+.header-content {
+    flex: 1;
+    padding: 0 20px;
+}
+.header-content h2 {
+    font-size: 2rem;
+    color: #2d3748;
+    margin-bottom: 15px;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+.header-content p {
+    font-size: 1.2rem;
+    color: #4a5568;
+    line-height: 1.6;
+    font-family: Arial, sans-serif;
+}
+
+.header-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+.header-image img {
+    max-width: 100%;
+    height: auto;
+    max-height: 300px;
+    object-fit: contain;
+}
+
+/* Main content */
+.main-content {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+@media (min-width: 992px) {
+    .main-content {
+        flex-direction: row;
+        gap: 40px;
+    }
+}
+
+.left-column {
+    flex: 1;
+}
+.left-column img {
+    width: 100%;
+    height: auto;
+    max-height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.left-content {
+    padding: 0 10px;
+}
+.left-content h3 {
+    font-size: 1.5rem;
+    color: #2d3748;
+    margin-bottom: 15px;
+    font-family: monospace;
+}
+.left-content p {
+    font-size: 1.1rem;
+    color: #4a5568;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    font-family: Arial, sans-serif;
+}
+.register-btn button {
+    background: #3182ce;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+.register-btn button:hover {
+    background: #2b6cb0;
+}
+.register-btn a {
+    color: white;
+    text-decoration: none;
+}
+
+.right-column {
+    flex: 1;
+    padding-left: 20px;
+    border-left: 2px solid #e2e8f0;
+}
+@media (max-width: 991px) {
+    .right-column {
+        border-left: none;
+        padding-left: 0;
+        margin-top: 20px;
+    }
+}
+
+.info-box {
+    background: #ebf8ff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.info-box h3 {
+    font-size: 1.4rem;
+    color: #2d3748;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.info-box ul {
+    list-style: none;
+    padding: 0;
+}
+.info-box ul li {
+    font-size: 1.1rem;
+    color: #4a5568;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.info-box svg {
+    color: #38a169;
+}
+
+.explore-link {
+    display: flex;
+    align-items: center;
+    color: #3182ce;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 10px;
+    gap: 8px;
+}
+.explore-link:hover {
+    text-decoration: underline;
+}

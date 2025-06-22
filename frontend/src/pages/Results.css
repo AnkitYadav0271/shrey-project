@@ -1,0 +1,168 @@
+.results-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.results-header {
+    text-align: center;
+    margin-bottom: 3rem;
+    background: #c00b0b;
+}
+
+.results-header h1 {
+    font-size: 2.5rem;
+    color: #ffffff;
+    margin-bottom: 1rem;
+}
+
+.results-header p {
+    font-size: 1.2rem;
+    color: #ffffff;
+}
+
+.semester-results, .upbt-results, .result-guidelines {
+    margin-bottom: 3rem;
+}
+
+.semester-results h2, .upbt-results h2, .result-guidelines h2 {
+    font-size: 1.8rem;
+    color: #2c3e50;
+    margin-bottom: 1.5rem;
+    border-bottom: 2px solid #e2e8f0;
+    padding-bottom: 0.5rem;
+}
+
+.results-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
+.result-card {
+    background: #fff;
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.result-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+.result-card h3 {
+    font-size: 1.3rem;
+    color: #2c3e50;
+    margin-bottom: 1rem;
+}
+
+.result-card p {
+    margin: 0.5rem 0;
+}
+
+.published {
+    color: #38a169;
+    font-weight: 600;
+}
+
+.upcoming {
+    color: #ecc94b;
+    font-weight: 600;
+}
+
+.view-result-btn {
+    background: #3182ce;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.view-result-btn:hover {
+    background: #2b6cb0;
+}
+
+.view-result-btn a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.upbt-links {
+    list-style: none;
+    padding: 0;
+}
+
+.upbt-links li {
+    margin-bottom: 1rem;
+}
+
+.upbt-links a {
+    color: #3182ce;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: color 0.2s;
+}
+
+.upbt-links a:hover {
+    color: #2b6cb0;
+    text-decoration: underline;
+}
+
+.guidelines-card {
+    background: #fff;
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin-bottom: 1.5rem;
+}
+
+.guidelines-card h3 {
+    font-size: 1.3rem;
+    color: #2c3e50;
+    margin-bottom: 1rem;
+}
+
+.guidelines-card ol, .guidelines-card p {
+    margin: 0.5rem 0;
+    line-height: 1.6;
+}
+
+.apply-link {
+    display: inline-block;
+    background: #3182ce;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    margin-top: 1rem;
+    text-decoration: none;
+    transition: background 0.2s;
+}
+
+.apply-link:hover {
+    background: #2b6cb0;
+}
+
+.results-footer {
+    text-align: center;
+    margin-top: 3rem;
+    padding: 1rem;
+    background: #f8f9fa;
+    border-radius: 10px;
+}
+
+.results-footer a {
+    color: #3182ce;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.results-footer a:hover {
+    text-decoration: underline;
+}

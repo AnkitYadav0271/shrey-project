@@ -1,0 +1,99 @@
+.plogin-container {
+    background-color: #f0f4f8;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    padding: 1rem;
+}
+
+.plogin-content {
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    width: 100%;
+    max-width: 480px;
+    padding: 2.5rem;
+    margin: 1rem;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.plogin-content:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.12);
+}
+
+.plogin-header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.plogin-header h1 {
+    color: #2c3e50;
+    font-size: 2rem;
+    margin: 0;
+}
+
+.plogin-instruction {
+    color: #4a5568;
+    font-size: 1.1rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.plogin-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.plogin-form input {
+    width: 100%;
+    padding: 0.8rem 1rem;
+    border: 1px solid #e2e8f0;
+    border-radius: 6px;
+    font-size: 1rem;
+    transition: border-color 0.2s, box-shadow 0.2s;
+    background: #f8fafc;
+    margin-bottom: 1rem;
+}
+
+.plogin-form input:focus {
+    outline: none;
+    border-color: #3182ce;
+    box-shadow: 0 0 0 2px rgba(49, 130, 206, 0.2);
+    background: #ffffff;
+}
+
+.plogin-submit {
+    background-color: #3182ce;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    padding: 0.8rem;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    margin-top: 0.5rem;
+}
+
+.plogin-submit:hover {
+    background-color: #2b6cb0;
+}
+
+.plogin-forgot {
+    color: #3182ce;
+    text-align: center;
+    text-decoration: none;
+    font-size: 0.9rem;
+    margin-top: 1rem;
+    display: block;
+    transition: color 0.2s;
+}
+
+.plogin-forgot:hover {
+    color: #2b6cb0;
+    text-decoration: underline;
+}

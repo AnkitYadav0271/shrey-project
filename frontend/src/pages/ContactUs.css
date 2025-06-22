@@ -1,0 +1,130 @@
+.contact-page {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+    font-family: Arial, sans-serif;
+}
+
+.contact-header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.contact-header h1 {
+    font-size: 2.2rem;
+    color: #2c3e50;
+}
+
+.contact-header p {
+    font-size: 1.1rem;
+    color: #4a5568;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+    padding: 2rem;
+}
+
+@media (min-width: 768px) {
+    .contact-container {
+        flex-direction: row;
+    }
+    .contact-info {
+        flex: 1;
+    }
+    .contact-form {
+        flex: 1;
+    }
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.info-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.icon {
+    color: #3182ce;
+    font-size: 1.4rem;
+    margin-top: 0.2rem;
+}
+
+.info-item h3 {
+    margin: 0 0 0.5rem 0;
+    color: #2c3e50;
+}
+
+.info-item p {
+    margin: 0;
+    color: #4a5568;
+}
+
+.contact-form {
+    padding-top: 1rem;
+}
+
+.contact-form h2 {
+    font-size: 1.5rem;
+    color: #2c3e50;
+    margin-bottom: 1.5rem;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: 1px solid #e2e8f0;
+    border-radius: 6px;
+    background: #f8f9fa;
+    box-sizing: border-box;
+}
+
+.contact-form textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: #3182ce;
+    outline: none;
+    background: #fff;
+}
+
+button[type="submit"] {
+    background: #3182ce;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.2s, box-shadow 0.2s;
+}
+
+button[type="submit"]:hover {
+    background: #287acc;
+    box-shadow: 0 2px 8px rgba(40, 122, 204, 0.4);
+}
+
+.error {
+    color: #e53e3e;
+    font-size: 0.9rem;
+    margin-top: 0.3rem;
+}

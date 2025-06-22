@@ -11,6 +11,20 @@ import { ErrorPage } from "./pages/ErrorPage";
 import { FacultyProfile } from "./pages/FacultyProfile";
 import {Event} from "./pages/event.jsx";
 import {PLogin} from "./pages/PLogin.jsx";
+import {Admission2025} from "./pages/Admission2025.jsx";
+
+import {ProceedPayment} from "./pages/ProceedPayment.jsx";
+import {StudentPage} from "./pages/Students.jsx";
+import {Results} from "./pages/Results.jsx";
+import {CampusLife} from "./pages/CampusLife.jsx";
+import {Scholarship} from "./pages/Scholorship.jsx";
+import {FormSuccessPage} from "./components/FormSuccessPage.jsx";
+import {FAQs} from "./pages/Faqs.jsx";
+import {ContactUs} from "./pages/ContactUs.jsx";
+import Dashboard from "./admin/dashboard.jsx";
+import FinancialOversight from "./admin/financeOversight.jsx";
+import { AuthProvider } from "./context/AuthContext.jsx";
+import  {ProtectedRoute } from "./components/authContext.jsx";
 
 
 const router = createBrowserRouter([
@@ -19,7 +33,7 @@ const router = createBrowserRouter([
     element: <Layout />,
     children: [
       {
-        path: '/home',
+        path: '/',
         element:<Home/>
       },
       {
@@ -58,13 +72,64 @@ const router = createBrowserRouter([
       {
         path: "/principle-login",
         element: <PLogin/>
+      },
+      {
+        path: "/admissions-2025",
+        element: <Admission2025/>
+      },
+      {
+      path:"/proceed-payment",
+        element: <ProceedPayment></ProceedPayment>
+      },
+      {
+        path: "/students",
+        element: <StudentPage/>
+      },
+      {
+        path: "/result",
+        element:<Results></Results>
+      },
+      {
+        path: "/campus-life",
+        element:<CampusLife></CampusLife>
+      },
+      {
+        path: "/scholarship",
+        element: <Scholarship/>
+      },
+      {
+        path:"form-submitted",
+        element:<FormSuccessPage/>
+      },{
+      path:"/faqs",
+        element:<FAQs></FAQs>
+      },
+      {
+        path:"/contact-us",
+        element:<ContactUs/>
+      },
+      {
+        path:"/admin/dashboard",
+        element:<ProtectedRoute> 
+          <Dashboard/>
+        </ProtectedRoute> 
+      },
+      {
+        path:"/admin/finance-oversight",
+        element:(
+        
+        <ProtectedRoute>
+           <FinancialOversight/>
+           </ProtectedRoute>)
       }
     ],
   },
 ]);
 
-const App = () => {
-  return <RouterProvider router={router} />;
-};
+const App = () => (
+  <AuthProvider>
+   <RouterProvider router={router} />;
+  </AuthProvider>
+);
 
 export default App;

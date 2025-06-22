@@ -1,102 +1,131 @@
-
-
 .footer-container {
-    background-color: #000;
-    display: flex;
-    max-width: 136rem;
-    width: 100%;
-    margin: auto;
-    box-sizing: border-box;
-
+    background-color: #1B1212;
+    color: #ecf0f1;
+    padding: 2rem 1rem 1rem;
+    font-family: Arial, sans-serif;
 }
 
-.logo {
-    border-top:7px rgb(243, 179, 5);
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 2rem;
 }
 
 .about-container {
-    background-color: var(--btm-nav-bg-color);
-}
-
-/**Social links css goes here  */
-.more-links {
     display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.8rem;
 }
 
-.youtube {
-    color: red;
-    font-size: 3rem;
-    gap: 2rem;
-    
-}
-.instagram {
-    color: rgb(193, 47, 72);
-    font-size: 3rem;
-    gap: 2rem;
-}
-.x {
-    color: #aaa;
-    font-size: 3rem;
-    gap: 2rem;
-}
-.facebook {
-    color: blue;
-    font-size: 3rem;
-    gap: 2rem;
-}
-.footer-container .more-links .copyright {
-border-bottom: 2px solid #fff;
-min-width: 100%;
-display: flex;
-
-& .social-links {
-    display: flex;
-    gap: 2rem;
-    margin-left: 8.9rem;
-
+.logo img {
+    max-width: 120px;
+    height: auto;
+    margin-bottom: 1rem;
 }
 
+.about-container h2 {
+    font-size: 1.4rem;
+    margin: 0;
 }
-/**  more links css starts here  */
+
+.about-container h4 {
+    font-size: 1rem;
+    margin: 0;
+    opacity: 0.8;
+}
+
+.about-container p {
+    font-size: 0.9rem;
+    margin: 0;
+    opacity: 0.8;
+}
+
 .more-links {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    gap: 1rem;
 }
 
-/*! important links css starts here  */
 .important-links {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    & .admissions , .academics , .resources h3{
-  font-size: 2rem;
-  & ul li a {
-    cursor: pointer;
-    font-size: 1.4rem;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-    }
-}
-.resources ul li a {
-    cursor: pointer;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
     gap: 2rem;
-        font-size: 1.4rem;
-        font-family: Arial, Helvetica, sans-serif;
-}
-    /*? About css is here ?  */
-    .about-container {
-        display: flex;
-        flex-direction: column;
-        gap: 1.3rem;
-    }
-.about-container h2, h4 {
-    font-family: monospace;
-    
-}
-.about-container p {
-    color: #fff;
-    font-family: fantasy;
-    font-family: 1.2rem;
 }
 
+.link-section {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.link-section h3 {
+    font-size: 1.2rem;
+    margin: 0 0 0.8rem 0;
+    color: #f1c40f;
+}
+
+.link-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+.link-section ul li a {
+    color: #ecf0f1;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: color 0.2s;
+}
+
+.link-section ul li a:hover {
+    color: #f1c40f;
+}
+
+.social-copyright-container {
+    max-width: 1200px;
+    margin: 2rem auto 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    border-top: 1px solid #34495e;
+    padding-top: 1rem;
+}
+
+.social-links {
+    display: flex;
+    gap: 1rem;
+}
+
+.social {
+    font-size: 1.5rem;
+    color: #ecf0f1;
+    transition: color 0.2s;
+}
+
+.social:hover {
+    color: #f1c40f;
+}
+
+.copyright p {
+    margin: 0;
+    font-size: 0.8rem;
+    opacity: 0.8;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .footer-content {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+    .important-links {
+        grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    }
+}

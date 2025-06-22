@@ -2,9 +2,12 @@
 /*? hero section starts here */
 .hero-section {
     position: relative;
+    max-width:1300px;
+
 }
 .hero-bg {
-    width: 100vw;
+    width: calc(100vw - 15px);
+    overflow-x: hidden;
     height: 100vh;
     image-rendering: crisp-edges;
     filter: brightness(100%) contrast(100%) saturate(100%);
@@ -15,9 +18,10 @@
 .just-another-layer {
     position: absolute;
     top: 0.00001rem;
-    width: 100vw;
+    width: calc(100vw - 15px);
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.3);
+    overflow-x: hidden;
    
 }
 .intro-container {
@@ -306,7 +310,7 @@ width: 100vw;
 .logo-animation-wrapper {
     overflow: hidden;
    
-    width: 100%;
+    width: 98%;
     
     position: relative;
     &:hover .logo-container{

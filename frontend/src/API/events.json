@@ -1,0 +1,47 @@
+
+[
+  {
+    "id": 2,
+    "img_src": "/holi-celebration.jpg",
+    "title": "Holi Celebration at GPM",
+    "date": "14 MAR 2025"
+  },
+  {
+  "id": 1,
+  "img_src": "/Tech-Entrepreneur.jpg",
+  "title": "Redefining Future Possibility in Tech Entrepreneurship",
+  "date": "14 DEC 2024"
+},
+
+  {
+    "id": 3,
+    "img_src": "/seminar-with-youth.jpeg",
+    "title": "Seminar with Youth at GPM",
+    "date": "22 FEB 2025"
+  },
+  {
+    "id": 4,
+    "img_src": "/talk-show.jpeg",
+    "title": "Talk show at GPM",
+    "date": "27 APR 2025"
+  },
+  {
+    "id": 7,
+    "img_src": "/carrier.jpg",
+    "title": "Seminar for choosing you carrier at GPM",
+    "date": "27 APR 2025"
+  },
+  {
+    "id": 6,
+    "img_src": "/national-youth-day.jpg",
+    "title": "National Youth Day celebration at GPM",
+    "date": "12 JAN 2025"
+  }
+,
+  {
+    "id": 5,
+    "img_src": "/seminar-on-goal.jpeg",
+    "title": "Seminar on Goal at GPM",
+    "date": "27 APR 2025"
+  }
+]
