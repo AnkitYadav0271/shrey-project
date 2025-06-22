@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./FAQs.css";
+import "./Faqs.css";
 
 export const FAQs = () => {
     // FAQ data
