@@ -1,7 +1,7 @@
 import { useReducer } from "react";
 import { useAuth } from "../context/AuthContext";
 import { useNavigate, useLocation } from "react-router-dom";
-import "./PLogin.css";
+import "./Plogin.css";
 
 export const PLogin = () => {
   const initialState = {

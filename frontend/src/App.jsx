@@ -1,7 +1,7 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { Layout } from "./Layout/Layout";
 import {Home} from './pages/home';
- import './app.css';
+ import './App.css';
 import { Register } from "./pages/Register";
 import { Academics } from "./pages/Academics";
 import { FacultyPage } from "./pages/Facultypage";
@@ -16,7 +16,7 @@ import {Admission2025} from "./pages/Admission2025.jsx";
 import {ProceedPayment} from "./pages/ProceedPayment.jsx";
 import {StudentPage} from "./pages/Students.jsx";
 import {Results} from "./pages/Results.jsx";
-import {CampusLife} from "./pages/CampusLife.jsx";
+import CampusLife from "./pages/CampusLife.jsx";
 import {Scholarship} from "./pages/Scholorship.jsx";
 import {FormSuccessPage} from "./components/FormSuccessPage.jsx";
 import {FAQs} from "./pages/Faqs.jsx";
