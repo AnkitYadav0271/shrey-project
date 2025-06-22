@@ -1,9 +1,13 @@
 
 .faculty-container {
     margin-top: 3rem;
-    max-width: 80%;
+
     margin: auto;
     border-bottom: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 .introduction {
     margin-left: 3rem;
@@ -13,7 +17,10 @@
     }
 }
 .faculty-detail-container {
+    padding: 4px 10px;
     display: grid;
+
+
     grid-template-columns: repeat(3,1fr);
     & ul li {
         display: flex;
@@ -24,19 +31,64 @@
 }
 
 
-/* ? Responsive Code starts here  */
-@media only screen and (max-width:1000px) {
-   .faculty-container .faculty-detail-container {
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
+@media only screen and (min-width: 1300px) {
+    .faculty-detail-container {
+        grid-template-columns: repeat(3, 1fr);
     }
 }
+@media only screen and (max-width: 1000px) {
+    .faculty-detail-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .introduction {
+        margin-left: 2rem;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .faculty-container {
+        max-width: 90%;
 
-@media only screen and (max-width:600px) {
-   .faculty-container .faculty-detail-container {
-        display: grid;
+    }
+
+    .faculty-detail-container {
         grid-template-columns: repeat(1, 1fr);
+        padding-right: 5px;
+        padding-left: 5px;
+
+    }
+
+    .introduction {
+        margin-left: 1rem;
+    }
+    .introduction h1 {
+        font-size: 1.6rem;
     }
 }
+@media only screen and (max-width: 600px) {
+    .faculty-detail-container {
+        grid-template-columns: repeat(1, 1fr);
 
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+    .introduction {
+        margin-left: 0.5rem;
+    }
+    .introduction h1 {
+        font-size: 1.4rem;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .faculty-container {
+        max-width: 95%;
+    }
+    .faculty-detail-container {
+        grid-template-columns: repeat(1, 1fr);
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+    .introduction h1 {
+        font-size: 1.2rem;
+    }
+}
 /* ? Responsive Code ends here */
