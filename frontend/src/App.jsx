@@ -1,7 +1,7 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { Layout } from "./Layout/Layout";
 import {Home} from './pages/home';
- import './app.css';
+ import './App.css';
 import { Register } from "./pages/Register";
 import { Academics } from "./pages/Academics";
 import { FacultyPage } from "./pages/Facultypage";
