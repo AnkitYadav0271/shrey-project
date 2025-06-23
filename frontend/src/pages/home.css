@@ -7,7 +7,8 @@
 }
 .hero-bg {
     max-width: calc(100vw - 15px);
-   width: 100%;
+    min-width: calc(100vw);
+    object-fit: cover;
     height: 100vh;
     image-rendering: crisp-edges;
     filter: brightness(100%) contrast(100%) saturate(100%);

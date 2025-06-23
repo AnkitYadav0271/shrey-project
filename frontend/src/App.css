@@ -21,4 +21,5 @@ html {
 
 body {
   background-color: var(--body-bg-clr);
+  overflow-x: hidden;
 }
