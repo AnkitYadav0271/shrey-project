@@ -4,7 +4,7 @@
     "name": "Mr. Sonvir Singh",
     "slug": "mr-sonvir-singh",
     "img_url": "sonvir_sir.jpeg.jpg",
-    "qualification": " (B.Tech) in CSE",
+    "qualification": " (B.Tech) in EE",
     "experience": "5 years",
     "email": "sonvirsingh036@gmail.com",
     "role": "Head of Department (HOD)",
@@ -26,43 +26,43 @@
     "name": "Mr. Prachi Singh",
     "slug": "miss-prachi-singh",
     "img_url": "prachi_mam.jpeg.jpg",
-    "qualification": "(M.Tech) in E&C",
+    "qualification": "(M.Tech) in EE",
     "experience": "3 Years",
     "email": "prachisinghsrmgpc@gmail.com",
     "role": "Lecturer",
-    "about": "Mr. Prachi Singh is an enthusiastic lecturer specializing in electronics and communication with a strong academic background. He is passionate about fostering innovation and critical thinking among students. His lectures focus on both fundamental theories and their practical applications in modern communication systems. Mr. Singh encourages students to participate in research projects and technical competitions to enhance their skills. He has published papers in reputed journals and is keen on guiding students in their research endeavors. His approach to teaching includes using multimedia tools and real-time simulations to make complex topics accessible. He is also involved in community outreach programs to promote STEM education. Students appreciate his clarity of explanation and willingness to provide extra support."
+    "about": "Mr. Prachi Singh is an enthusiastic lecturer specializing in electrical engineering with a strong academic background. He is passionate about fostering innovation and critical thinking among students. His lectures focus on both fundamental theories and their practical applications in modern communication systems. Mr. Singh encourages students to participate in research projects and technical competitions to enhance their skills. He has published papers in reputed journals and is keen on guiding students in their research endeavors. His approach to teaching includes using multimedia tools and real-time simulations to make complex topics accessible. He is also involved in community outreach programs to promote STEM education. Students appreciate his clarity of explanation and willingness to provide extra support."
   },
   {
     "id": 5,
     "name": "Miss. Shagufta Parveen",
     "slug": "miss-shagufta-parveen",
     "img_url": "shagufta_mam.jpeg.jpg",
-    "qualification": "B.Tech (ME)",
+    "qualification": "B.Tech EE",
     "experience": "3 Years",
     "email": "khushbuansari003@gmail.com",
     "role": "Lecturer",
-    "about": "Miss Shagufta Parveen is a passionate mechanical engineering lecturer committed to delivering quality education. She emphasizes the importance of hands-on learning and encourages students to engage in practical projects. Her teaching style integrates traditional lectures with interactive sessions and real-world case studies. Miss Parveen actively supports students in developing problem-solving skills essential for engineering challenges. She has been involved in organizing technical workshops and seminars to broaden students' knowledge. Her interests include sustainable engineering and innovative manufacturing processes. She continuously updates her teaching materials to incorporate the latest technological advancements. Students find her approachable and motivating, which fosters a positive learning environment."
+    "about": "Miss Shagufta Parveen is a passionate electrical engineering lecturer committed to delivering quality education. She emphasizes the importance of hands-on learning and encourages students to engage in practical projects. Her teaching style integrates traditional lectures with interactive sessions and real-world case studies. Miss Parveen actively supports students in developing problem-solving skills essential for engineering challenges. She has been involved in organizing technical workshops and seminars to broaden students' knowledge. Her interests include sustainable engineering and innovative manufacturing processes. She continuously updates her teaching materials to incorporate the latest technological advancements. Students find her approachable and motivating, which fosters a positive learning environment."
   },
   {
     "id": 6,
     "name": "Miss. Sapna Yadav",
     "slug": "miss-sapna-yadav",
     "img_url": "sapna_mam.jpeg.jpg",
-    "qualification": "B.Tech (CE)",
+    "qualification": "B.Tech EE",
     "experience": "3 Years",
     "email": "sapnayadv132@gmail.com",
     "role": "Lecturer",
-    "about": "Miss Sapna Yadav specializes in civil engineering and is dedicated to nurturing the next generation of engineers. She focuses on combining theoretical knowledge with practical site experience in her teaching. Miss Yadav encourages collaborative learning and teamwork through group projects and assignments. Her expertise includes structural analysis, construction management, and environmental engineering. She actively participates in professional development workshops to stay current with industry trends. Miss Yadav mentors students for internships and career opportunities in the civil engineering sector. Her commitment to student success is reflected in her personalized guidance and support. She strives to create an inclusive and engaging classroom atmosphere where all students thrive."
+    "about": "Miss Sapna Yadav specializes in Electrical engineering and is dedicated to nurturing the next generation of engineers. She focuses on combining theoretical knowledge with practical site experience in her teaching. Miss Yadav encourages collaborative learning and teamwork through group projects and assignments. Her expertise includes structural analysis, construction management, and environmental engineering. She actively participates in professional development workshops to stay current with industry trends. Miss Yadav mentors students for internships and career opportunities in the civil engineering sector. Her commitment to student success is reflected in her personalized guidance and support. She strives to create an inclusive and engaging classroom atmosphere where all students thrive."
   },
   {
     "id": 1,
     "name": "Mr. Navin Verma",
     "slug": "mr-navin-verma",
     "img_url": "navin_sir.jpeg.jpg",
-    "qualification": " B.Tech (CSE)",
+    "qualification": " B.Tech EE",
     "experience": "4 Years",
     "email": "nv25101997@gmail.com",
     "role": "Lecturer",
-    "about": "Mr. Navin Verma is an IT lecturer with a strong focus on software development and emerging technologies. He integrates practical coding exercises and real-world projects into his curriculum to enhance learning. Mr. Verma is passionate about preparing students for the fast-paced IT industry by teaching current best practices. He encourages continuous learning and professional growth among his students. His areas of interest include web development, cloud computing, and cybersecurity. He actively collaborates with industry professionals to bring guest lectures and workshops to the classroom. Mr. Verma is known for his clear explanations and dedication to student mentorship. He strives to inspire innovation and creativity in every student he teaches."
+    "about": "Mr. Navin Verma is an Electrical Engineering lecturer with a strong focus on software development and emerging technologies. He integrates practical coding exercises and real-world projects into his curriculum to enhance learning. Mr. Verma is passionate about preparing students for the fast-paced IT industry by teaching current best practices. He encourages continuous learning and professional growth among his students. His areas of interest include web development, cloud computing, and cybersecurity. He actively collaborates with industry professionals to bring guest lectures and workshops to the classroom. Mr. Verma is known for his clear explanations and dedication to student mentorship. He strives to inspire innovation and creativity in every student he teaches."
   }
 ]

@@ -1,0 +1,33 @@
+/* Add to your CSS file */
+.entrepreneurship-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.success-stories .story {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+}
+
+.feature-list {
+    list-style: none;
+    padding: 0;
+}
+
+.feature-list li {
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.feature-icon {
+    margin-right: 1rem;
+    font-size: 1.5rem;
+}
+
+.feature-text {
+    font-size: 1.1rem;
+}

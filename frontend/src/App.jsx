@@ -25,6 +25,11 @@ import Dashboard from "./admin/dashboard.jsx";
 import FinancialOversight from "./admin/financeOversight.jsx";
 import { AuthProvider } from "./context/AuthContext.jsx";
 import  {ProtectedRoute } from "./components/authContext.jsx";
+import {PlacementDrive} from "./pages/PlacementDrive.jsx";
+import {Alumni} from "./pages/Alumni.jsx";
+import {Entrepreneurship} from "./pages/Enterpreneurship.jsx";
+import {ApplyCertificate} from "./pages/ApplyCertificate.jsx";
+
 
 
 const router = createBrowserRouter([
@@ -121,6 +126,25 @@ const router = createBrowserRouter([
         <ProtectedRoute>
            <FinancialOversight/>
            </ProtectedRoute>)
+      },{
+      path:"/placement-drive",
+        element:<PlacementDrive/>
+      },
+      {
+        path: "/more-about-placement",
+        element:<PlacementDrive/>
+      },
+      {
+        path:"/alumni",
+        element:<Alumni/>
+      },
+      {
+        path:"/entrepreneurship",
+        element:<Entrepreneurship/>
+      },
+      {
+        path:"/apply-certificate",
+        element:<ApplyCertificate/>
       }
     ],
   },

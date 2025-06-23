@@ -46,6 +46,7 @@
 .image-and-some-dialogue {
     display: flex;
     flex-direction: column;
+    margin-left: 10%;
 
     & .img img {
         width: 100%;

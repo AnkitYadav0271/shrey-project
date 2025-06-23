@@ -1,41 +1,92 @@
+/* General reset for box-sizing */
+* {
+    box-sizing: border-box;
+}
 
+/* Faculty Container */
 .faculty-container {
-    margin-top: 3rem;
+    margin: 3rem auto;
+    max-width: 80%;
 
-    margin: auto;
+
+    padding: 10px;
     border-bottom: 1px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
+
+/* Introduction Section */
 .introduction {
     margin-left: 3rem;
-    & h1 {
-        font-size: 2rem;
-        font-family: monospace;
-    }
+    width: 100%;
+    max-width: 100%;
+    padding: 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+.introduction h1 {
+    font-size: 2.5rem;
+
+}
+
+/* Faculty Detail Container */
 .faculty-detail-container {
+
+
     padding: 4px 10px;
     display: grid;
+    grid-template-columns: repeat(3, 1fr);
 
+}
+.faculty-detail-container ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
-    grid-template-columns: repeat(3,1fr);
-    & ul li {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+}
+.faculty-detail-container ul li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #eee; /* Optional: for visual separation */
+    background: #f9f9f9;    /* Optional: for visual separation */
+    border-radius: 8px;
+    max-width: 70%;
+    & p{
+        font-size: 1rem;
+    }
+    & img{
+        width: 80%;
     }
 }
 
+.images-and-other-details{
+    max-width: 100%;
+    min-width: 27rem;
+}
 
-@media only screen and (min-width: 1300px) {
+.right-arrow{
+
+}
+/* Responsive Media Queries */
+
+/* For screens wider than 1300px */
+@media only screen and (max-width: 1300px) {
     .faculty-detail-container {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 }
+
+/* For screens up to 1000px */
 @media only screen and (max-width: 1000px) {
     .faculty-detail-container {
         grid-template-columns: repeat(2, 1fr);
@@ -44,19 +95,17 @@
         margin-left: 2rem;
     }
 }
+
+/* For screens up to 768px */
 @media only screen and (max-width: 768px) {
     .faculty-container {
-        max-width: 90%;
 
     }
-
     .faculty-detail-container {
         grid-template-columns: repeat(1, 1fr);
         padding-right: 5px;
         padding-left: 5px;
-
     }
-
     .introduction {
         margin-left: 1rem;
     }
@@ -64,10 +113,11 @@
         font-size: 1.6rem;
     }
 }
+
+/* For screens up to 600px */
 @media only screen and (max-width: 600px) {
     .faculty-detail-container {
         grid-template-columns: repeat(1, 1fr);
-
         padding-right: 5px;
         padding-left: 5px;
     }
@@ -78,6 +128,8 @@
         font-size: 1.4rem;
     }
 }
+
+/* For screens up to 400px */
 @media only screen and (max-width: 400px) {
     .faculty-container {
         max-width: 95%;
@@ -91,4 +143,3 @@
         font-size: 1.2rem;
     }
 }
-/* ? Responsive Code ends here */

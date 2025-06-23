@@ -2,12 +2,12 @@
 /*? hero section starts here */
 .hero-section {
     position: relative;
-    max-width:100vw;
+    max-width:calc(100vw - 15px );
 
 }
 .hero-bg {
-    width: calc(100vw - 15px);
-    overflow-x: hidden;
+    max-width: calc(100vw - 15px);
+   width: 100%;
     height: 100vh;
     image-rendering: crisp-edges;
     filter: brightness(100%) contrast(100%) saturate(100%);
@@ -27,8 +27,9 @@
 }
 .intro-container {
     position: absolute;
-    top: 10rem;
+    margin-right: 10%;
     left: 10%;
+    top: 10%;
     max-width: 100%;
     backdrop-filter: blur(2px);
 
@@ -52,6 +53,7 @@
     top: 50%;
     max-width: 50rem;
     left: 50%;
+   max-height: 25rem;
     border-left: 2px solid #fff;
     & p {
     font-size: 1.6rem;
@@ -61,13 +63,18 @@
         padding: 1rem;
     }
 }
+
+.section-container{
+    max-width: 80%;
+    margin: auto;
+}
 .arrow-btn {
     background-color:var(--btm-nav-bg-color);
     border-radius: 50%;
     border: none;
     height: 4rem;
     outline: none;
-    margin: 1rem;
+    margin: 0.4rem;
     transition: 0.3s linear;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -358,7 +365,7 @@ width: 100vw;
 }
 .companies-section {
 
-    flex: column;
+
     margin-top: 8rem;
     margin-bottom: 12rem;
 
@@ -372,6 +379,13 @@ width: 100vw;
 /*! Logo scroll Css ends here  */
 
 /* ? courses section is starting here */
+.our-courses {
+ margin: auto;
+  max-width: 70vw;
+    margin-top: 1rem;
+
+}
+
 .courses-we-offer {
     display: flex;
     flex-direction: column;
@@ -384,21 +398,22 @@ width: 100vw;
 }
 
 .courses-img-and-details {
-    display: flex;
-    max-width: 100dvw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 80vw;
 }
 .courses-img-container {
     display: flex;
     flex-direction: column;
-    display: flex;
+
         padding: 1rem;
         margin: 2rem;
         gap: 1rem;
-        backdrop-filter: blur(10px);
+
         background: rgba(255, 255, 255, 0.2);
 
-        box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
-
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+         backdrop-filter: blur(10px);
         border-radius: 15px;
 
     & h4 {
@@ -422,6 +437,9 @@ width: 100vw;
 }
 /**  responsiveness goes here  */
 @media only screen and (max-width:1000px) {
+    .our-courses{
+        max-width: 80vw;
+    }
   .courses-img-and-details {
     display: grid;
     grid-template-columns:1fr 1fr;
@@ -430,7 +448,10 @@ width: 100vw;
 @media only screen and (max-width:800px) {
     .courses-img-and-details {
         display: grid;
-        grid-template-columns:  1fr;
+        grid-template-columns:  repeat(1,1fr);
+    }
+    .our-courses{
+        max-width: 80vw;
     }
 }
 /**  responsiveness goes here  */
@@ -443,6 +464,11 @@ width: 100vw;
 
 /* ? courses section is ends here */
 
+/*/section faculty starts here*/
+.faculty-section{
+    max-width: 80%;
+    margin: auto;
+}
 
 /* ! section register now starts here ? */
 .register-now {
@@ -498,8 +524,8 @@ width: 100vw;
 /* Main intro text */
 .intro-container {
     position: absolute;
-    top: 12%;
-    margin-left: 10rem;
+
+    margin-left: 10%;
     width: 50rem;
     background: rgba(0,0,0,0.22);
     border-radius: 18px;
@@ -590,11 +616,11 @@ width: 100vw;
 
 /* ========== RESPONSIVE BREAKPOINTS ========== */
 
-@media (max-width: 1000px) {
+@media (max-width: 1300px) {
     .intro-container {
-        top: 8%;
+        top: 10%;
         left: 3%;
-        width: 93%;
+        max-width: 93%;
         padding: 1.2rem 1rem;
     }
     .intro-container h3 {
@@ -606,12 +632,13 @@ width: 100vw;
         line-height: 1.4rem;
     }
     .another-quote {
-        top: 75%;
-        left: 10%;
-        min-width: 180px;
+        top: 30%;
+        left: 25%;
+        min-width: 160px;
         max-width: 80vw;
         padding: 1rem 0.7rem 1rem 1.2rem;
         font-size: 1rem;
+        margin-right: 10rem;
         transform: none;
     }
     .another-quote p {
@@ -631,7 +658,7 @@ width: 100vw;
     }
     .intro-container {
         position: absolute;
-        top: 4%;
+       top: 5%;
        margin-left: 1rem;
         width: 95%;
         padding: 0.7rem 0.5rem;
@@ -668,5 +695,59 @@ width: 100vw;
     }
     .arrow {
         font-size: 1.1rem;
+    }
+}
+
+
+@media screen and (max-width: 1000px){
+    .intro-container{
+        max-width: 80%;
+        margin-right: 10%;
+      top: 4%;
+    }
+
+    .another-quote {
+        position: absolute;
+        top: 35%;
+        left: 25%;
+        max-width: 90vw;
+        min-width: 120px;
+        padding: 0.7rem 0.4rem 0.7rem 0.9rem;
+        border-radius: 8px;
+        font-size: 0.97rem;
+        margin-right: 10rem;
+
+    }
+}
+
+
+@media (min-width: 1300px) {
+    .intro-container {
+        top: 15%;
+        left: 15%;
+        max-width: 93%;
+        padding: 1.2rem 1rem;
+    }
+    .intro-container h3 {
+        font-size: 1.4rem;
+        line-height: 2rem;
+    }
+    .intro-container p {
+        font-size: 1rem;
+        line-height: 1.4rem;
+    }
+    .another-quote {
+        top: 35%;
+        left: 35%;
+        min-width: 180px;
+        max-width: 30rem;
+        padding: 1rem 0.7rem 1rem 1.2rem;
+        font-size: 1rem;
+        margin-right: 10rem;
+        transform: none;
+    }
+    .another-quote p {
+        font-size: 0.98rem;
+        line-height: 1.3rem;
     }
 }

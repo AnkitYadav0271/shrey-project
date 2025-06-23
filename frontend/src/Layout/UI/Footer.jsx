@@ -30,19 +30,21 @@ export const Footer = () => {
                         <div className="link-section academics">
                             <h3>Academics</h3>
                             <ul>
-                                <li><NavLink to="#">Joint Placement drive</NavLink></li>
-                                <li><NavLink to="#">Alumni</NavLink></li>
-                                <li><NavLink to="#">Entrepreneurship</NavLink></li>
-                                <li><NavLink to="#">More About Placements</NavLink></li>
+                                <li><NavLink to="placement-drive">Joint Placement drive</NavLink></li>
+                                <li><NavLink to="/alumni">Alumni</NavLink></li>
+                                <li><NavLink to="/entrepreneurship">Entrepreneurship</NavLink></li>
+                                <li><NavLink to="/more-about-placement">More About Placements</NavLink></li>
                             </ul>
                         </div>
                         <div className="link-section resources">
                             <h3>Resources</h3>
                             <ul>
                                 <li><NavLink to="#">Online Education</NavLink></li>
-                                <li><NavLink to="#">E library</NavLink></li>
-                                <li><NavLink to="#">Download Syllabus</NavLink></li>
-                                <li><NavLink to="#">Apply Certificate</NavLink></li>
+                                <li><NavLink to="https://www.gutenberg.org/">E library</NavLink></li>
+                                <li><a href="/syllabus.pdf" download>
+                                    Download Syllabus
+                                </a></li>
+                                <li><NavLink to="/apply-certificate">Apply Certificate</NavLink></li>
                             </ul>
                         </div>
                     </div>

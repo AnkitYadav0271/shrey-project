@@ -13,7 +13,7 @@ import { Faculty } from "../components/Faculty";
 
 export const Home = () => {
     return (
-        <>
+        <div className={"main-container"}>
             <div className="hero-section">
                 <div className="background">
                     <img className='hero-bg' src="clgbg.jpg" alt="college background" />
@@ -40,7 +40,10 @@ export const Home = () => {
                     </div>
                 </div>
             </div>
-           
+
+
+
+               <div className={"section-container"}>
         <section className="our-courses">
             <div className="courses-we-offer">
                 <h3>Courses we Offer</h3>
@@ -132,7 +135,7 @@ export const Home = () => {
             </section>
             {/*? section faculty starts here */}
      
-            <section>
+            <section className={"faculty-section"}>
                 <Faculty/>
             </section>
 
@@ -159,6 +162,8 @@ export const Home = () => {
                     </button>
                 </div>
             </section>
-        </>
+        </div>
+
+        </div>
     );
 };
