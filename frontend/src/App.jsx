@@ -29,6 +29,7 @@ import {PlacementDrive} from "./pages/PlacementDrive.jsx";
 import {Alumni} from "./pages/Alumni.jsx";
 import {Entrepreneurship} from "./pages/Enterpreneurship.jsx";
 import {ApplyCertificate} from "./pages/ApplyCertificate.jsx";
+import Resources, {ElectricalEngineeringPage} from "./pages/Resources.jsx";
 
 
 
@@ -145,6 +146,14 @@ const router = createBrowserRouter([
       {
         path:"/apply-certificate",
         element:<ApplyCertificate/>
+      },
+      {
+        path:"/resources",
+        element:<ElectricalEngineeringPage/>
+      },
+      {
+        path:"/contact-us",
+        element:<ContactUs/>
       }
     ],
   },

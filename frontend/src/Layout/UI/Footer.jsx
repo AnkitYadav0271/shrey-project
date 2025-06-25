@@ -39,8 +39,8 @@ export const Footer = () => {
                         <div className="link-section resources">
                             <h3>Resources</h3>
                             <ul>
-                                <li><NavLink to="#">Online Education</NavLink></li>
-                                <li><NavLink to="https://www.gutenberg.org/">E library</NavLink></li>
+                                <li><NavLink to="/resources">Online Resources</NavLink></li>
+                                <li><NavLink to="https://www.gutenberg.org/" target={"_blank"}>E library</NavLink></li>
                                 <li><a href="/syllabus.pdf" download>
                                     Download Syllabus
                                 </a></li>

@@ -1,55 +1,64 @@
-import { FaRupeeSign, FaGraduationCap, FaFileAlt, FaCheckCircle } from "react-icons/fa";
+import { FaRupeeSign, FaGraduationCap, FaFileAlt, FaCheckCircle, FaInfoCircle, FaExternalLinkAlt } from "react-icons/fa";
 import "./Scholorship.css";
 
 export const Scholarship = () => {
     return (
         <div className="scholarship-page">
-            <div className="scholarship-header">
+            <div className="scholarship-page__header">
                 <h1>Scholarships</h1>
                 <p>Explore financial aid opportunities to support your academic journey at Govt Polytechnic Manikpur.</p>
             </div>
 
-            <section className="scholarship-overview">
+            <section className="scholarship-page__overview">
                 <h2><FaGraduationCap /> Overview</h2>
                 <p>
                     Scholarships provide vital financial support to students, enabling them to focus on their studies without the burden of financial constraints. Govt Polytechnic Manikpur encourages all eligible students to apply for scholarships offered by the Government of Uttar Pradesh and other agencies.
                 </p>
             </section>
 
-            <section className="up-scholarship">
+            <section className="scholarship-page__up-scholarship">
                 <h2><FaRupeeSign /> Government of Uttar Pradesh Scholarship</h2>
                 <p>
                     The Uttar Pradesh government offers a range of scholarships for students at different educational levels. These scholarships are designed to support students from economically disadvantaged backgrounds and promote access to quality education.
                 </p>
 
-                <div className="scholarship-grid">
-                    <div className="scholarship-card">
+                <div className="scholarship-page__grid">
+                    <div className="scholarship-page__card">
                         <h3>Pre-Matric Scholarship (Class 9-10)</h3>
                         <ul>
                             <li><FaCheckCircle /> For students in classes 9 and 10</li>
                             <li><FaCheckCircle /> Family income limit: ₹1,00,000 per annum (General category)</li>
                             <li><FaCheckCircle /> Covers books, tuition, and other expenses</li>
                         </ul>
+                        <div className="scholarship-page__card-footer">
+                            <FaInfoCircle /> More Info
+                        </div>
                     </div>
-                    <div className="scholarship-card">
+                    <div className="scholarship-page__card">
                         <h3>Post-Matric Scholarship (Class 11-12 and above)</h3>
                         <ul>
                             <li><FaCheckCircle /> For students in classes 11, 12, and higher education</li>
                             <li><FaCheckCircle /> Family income limit: ₹2,50,000 per annum (General category)</li>
                             <li><FaCheckCircle /> Available for SC/ST/OBC/Minority/General categories</li>
                         </ul>
+                        <div className="scholarship-page__card-footer">
+                            <FaInfoCircle /> More Info
+                        </div>
                     </div>
-                    <div className="scholarship-card">
+                    <div className="scholarship-page__card">
                         <h3>Post-Matric Scholarship (Outside State)</h3>
                         <ul>
                             <li><FaCheckCircle /> For UP residents studying outside the state</li>
                             <li><FaCheckCircle /> Must be enrolled in recognized institutions</li>
                             <li><FaCheckCircle /> Similar income and eligibility criteria</li>
                         </ul>
+                        <div className="scholarship-page__card-footer">
+                            <FaInfoCircle /> More Info
+                        </div>
                     </div>
                 </div>
 
-                <div className="eligibility">
+                <div className="scholarship-page__eligibility">
                     <h3>Eligibility Criteria</h3>
                     <ul>
                         <li><FaCheckCircle /> Must be a permanent resident of Uttar Pradesh</li>
@@ -59,10 +68,10 @@ export const Scholarship = () => {
                     </ul>
                 </div>
 
-                <div className="application-process">
+                <div className="scholarship-page__application-process">
                     <h3>How to Apply</h3>
                     <ol>
-                        <li>Visit the official UP Scholarship portal: <a href="https://scholarship.up.gov.in" target="_blank" rel="noopener noreferrer">scholarship.up.gov.in</a></li>
+                        <li>Visit the official UP Scholarship portal: <a href="https://scholarship.up.gov.in" target="_blank" rel="noopener noreferrer">scholarship.up.gov.in <FaExternalLinkAlt /></a></li>
                         <li>Register or login to your account</li>
                         <li>Fill out the application form with your academic and personal details</li>
                         <li>Upload required documents (income certificate, caste certificate if applicable, etc.)</li>
@@ -71,7 +80,7 @@ export const Scholarship = () => {
                     </ol>
                 </div>
 
-                <div className="important-dates">
+                <div className="scholarship-page__important-dates">
                     <h3>Important Dates (2025-26)</h3>
                     <ul>
                         <li><strong>Application Starts:</strong> First week of July 2025</li>
@@ -83,14 +92,14 @@ export const Scholarship = () => {
                 </div>
             </section>
 
-            <section className="other-scholarships">
+            <section className="scholarship-page__other-scholarships">
                 <h2><FaGraduationCap /> Other Scholarships</h2>
                 <p>
-                    In addition to the UP Government Scholarship, students may be eligible for scholarships from the Central Government and other agencies. Check the <a href="https://scholarships.gov.in" target="_blank" rel="noopener noreferrer">National Scholarship Portal</a> for more opportunities.
+                    In addition to the UP Government Scholarship, students may be eligible for scholarships from the Central Government and other agencies. Check the <a href="https://scholarships.gov.in" target="_blank" rel="noopener noreferrer">National Scholarship Portal <FaExternalLinkAlt /></a> for more opportunities.
                 </p>
             </section>
 
-            <footer className="scholarship-footer">
+            <footer className="scholarship-page__footer">
                 <p>For any queries, contact the scholarship cell at <a href="mailto:scholarship@gvtm.edu.in">scholarship@gvtm.edu.in</a></p>
             </footer>
         </div>

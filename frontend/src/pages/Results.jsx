@@ -13,9 +13,9 @@ export const Results = () => {
 
     // UPBT Result Links
     const upbtResultLinks = [
-        { name: "UPBT Official Results Portal", url: "https://upbte.edu.in/results" },
-        { name: "UPBT 2023-24 Results", url: "https://upbte.edu.in/result-2023" },
-        { name: "UPBT Previous Year Results", url: "https://upbte.edu.in/previous-results" },
+        { name: "BTEUP Official Results Portal", url: "https://upbte.edu.in/" },
+        { name: "BTEUP 2024-25 Results", url: "https://upbte.edu.in/" },
+        { name: "BTEUP Previous Year Results", url: "https://upbte.edu.in" },
     ];
 
     return (
@@ -46,7 +46,7 @@ export const Results = () => {
             </section>
 
             <section className="upbt-results">
-                <h2>UPBT Results</h2>
+                <h2>BTEUP Results</h2>
                 <p>Use the following links to access UPBT (Uttar Pradesh Board of Technical Education) results:</p>
                 <ul className="upbt-links">
                     {upbtResultLinks.map((link, index) => (

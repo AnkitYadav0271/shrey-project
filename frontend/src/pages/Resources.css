@@ -1,0 +1,209 @@
+/* Main container */
+.electrical-engineering-page {
+    max-width: 1200px;
+    margin: 3rem auto;
+    padding: 0 1.5rem;
+    font-family: 'Segoe UI', 'Roboto', sans-serif;
+    color: #2d3748;
+}
+
+/* Header */
+.ee-header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.ee-header h1 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin-bottom: 0.5rem;
+}
+
+.ee-header p {
+    font-size: 1.2rem;
+    color: #4a5568;
+}
+
+/* Semester section */
+.semester-section {
+    margin-bottom: 3rem;
+}
+
+.semester-section h2 {
+    font-size: 2rem;
+    color: #2c3e50;
+    margin-bottom: 1.5rem;
+    border-bottom: 3px solid #3182ce;
+    padding-bottom: 0.5rem;
+}
+
+.semester-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 2rem;
+}
+
+.semester-card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.semester-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.semester-card h3 {
+    font-size: 1.5rem;
+    color: #2c3e50;
+    margin-bottom: 1.2rem;
+}
+
+.resources-component {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.resources-section h4,
+.youtube-section h4 {
+    font-size: 1.2rem;
+    color: #2c3e50;
+    margin: 0 0 0.8rem 0;
+}
+
+.resources-list,
+.youtube-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.resources-list li,
+.youtube-list li {
+    margin-bottom: 0.5rem;
+}
+
+.resources-list a,
+.youtube-list a {
+    color: #3182ce;
+    text-decoration: none;
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.resources-list a:hover,
+.youtube-list a:hover {
+    text-decoration: underline;
+}
+
+.download-badge {
+    background: #38a169;
+    color: #fff;
+    border-radius: 4px;
+    padding: 0.2rem 0.5rem;
+    font-size: 0.8rem;
+    margin-left: 0.5rem;
+    font-weight: 500;
+}
+
+/* Responsive adjustments */
+@media only screen and (max-width: 768px) {
+    .semester-list {
+        grid-template-columns: 1fr;
+    }
+    .semester-card {
+        padding: 1.2rem;
+    }
+    .ee-header h1 {
+        font-size: 2rem;
+    }
+    .ee-header p {
+        font-size: 1.1rem;
+    }
+    .semester-section h2 {
+        font-size: 1.7rem;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .ee-header h1 {
+        font-size: 1.8rem;
+    }
+    .ee-header p {
+        font-size: 1rem;
+    }
+    .semester-section h2 {
+        font-size: 1.5rem;
+    }
+    .semester-card h3 {
+        font-size: 1.3rem;
+    }
+}
+
+
+.resources-list li {
+    margin-bottom: 0.8rem;
+    background: #f8fafc;
+    border-radius: 8px;
+    padding: 0.8rem 1rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.resources-list a {
+    color: #2c3e50;
+    text-decoration: none;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.resources-list a:hover {
+    color: #3182ce;
+    text-decoration: none;
+}
+
+.download-badge {
+    background: #3182ce;
+    color: #fff;
+    border-radius: 20px;
+    padding: 0.4rem 1rem;
+    font-size: 0.85rem;
+    font-weight: 600;
+    white-space: nowrap;
+    margin-left: 1rem;
+    transition: background 0.2s;
+}
+
+.download-badge:hover {
+    background: #2b6cb0;
+}
+
+.youtube-list li {
+    background: #f8fafc;
+    border-radius: 8px;
+    padding: 0.8rem 1rem;
+    margin-bottom: 0.8rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.youtube-list a {
+    color: #2c3e50;
+    text-decoration: none;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.youtube-list a:hover {
+    color: #3182ce;
+    text-decoration: none;
+}

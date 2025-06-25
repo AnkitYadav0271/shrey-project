@@ -10,7 +10,7 @@ export const Admission2025 = () => {
                 <div className="header-content">
                     <h2>Admissions 2025</h2>
                     <p>
-                        Join Rajkiya Government Polytechnic for the 2025 academic year and start your journey towards a successful career in technical education.
+                        Join  Government Polytechnic Manikpur for the 2025 academic year and start your journey towards a successful career in technical education.
                     </p>
                 </div>
                 <div className="header-image">
@@ -24,7 +24,7 @@ export const Admission2025 = () => {
                 <div className="left-column">
                     <img src="collpic.jpg" alt="Campus entrance" />
                     <div className="left-content">
-                        <h3>Why Choose Rajkiya Government Polytechnic?</h3>
+                        <h3>Why Choose  Government Polytechnic Manikpur?</h3>
                         <p>
                             Discover a vibrant community of learners and innovators. Our faculty are committed to your success, offering mentorship, hands-on training, and industry connections.
                         </p>

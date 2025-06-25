@@ -194,23 +194,28 @@
                 display: grid;
                 grid-template-columns: 1fr;
             }
-    
+
             .details-two-cols .second-cols {
                 position: static;
-                
+
                 display: flex;
                 flex-direction: column;
-                
+
                 width: 100%;
-                
+
                 margin-top: 2rem;
-                
+
                 left: auto;
-                
+
                 top: auto;
-                
+
             }
         }
  }
 
 /*? Media Query Ends  here ?  */
+
+
+
+/*!!!!!! New CSS STARTS here*/
+

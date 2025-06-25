@@ -12,7 +12,7 @@ export const ProceedPayment = () => {
                 <div className="header-content">
                     <h2>Fee Deposit 2025</h2>
                     <p>
-                        Make your payment for the 2025 academic year at Rajkiya Government Polytechnic. Secure your seat by depositing the required fees.
+                        Make your payment for the 2025 academic year at  Government Polytechnic Mankikpur. Secure your seat by depositing the required fees.
                     </p>
                 </div>
                 <div className="header-image">

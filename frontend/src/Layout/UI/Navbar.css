@@ -256,9 +256,7 @@ input[type="text"]::placeholder {
 
     }
 
-    .bottom-header-container{
-        min-width: calc(100vw - 15px);
-    }
+
 }
 
 @media  screen and (max-width: 1300px) {

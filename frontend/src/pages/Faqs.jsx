@@ -57,7 +57,7 @@ export const FAQs = () => {
                 ))}
             </div>
             <div className="faqs-footer">
-                <p>Didn’t find your question? <a href="/contact">Contact us</a> for more information.</p>
+                <p>Didn’t find your question? <a href="/contact-us">Contact us</a> for more information.</p>
             </div>
         </div>
     );
