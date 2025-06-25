@@ -2,11 +2,13 @@
 /*? hero section starts here */
 .hero-section {
     position: relative;
-    max-width:calc(100vw - 15px );
+
 
 }
 .hero-bg {
-    max-width: calc(100vw - 15px);
+    max-width:100vw;
+    width: 100vw;
+    margin-right: 0;
     min-width: calc(100vw);
     object-fit: cover;
     height: 100vh;
@@ -19,7 +21,8 @@
 .just-another-layer {
     position: absolute;
     top: 0.00001rem;
-    width: calc(100vw - 15px);
+    width: 100vw ;
+    min-width: 100vw;
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.3);
     overflow-x: hidden;
