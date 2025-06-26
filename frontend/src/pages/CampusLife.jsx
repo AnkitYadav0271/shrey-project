@@ -15,7 +15,7 @@ const CampusLife = () => {
 
     // Events with images
     const events = [
-        { id: 1, name: "Annual Sports Day", icon: <FaVolleyballBall />, desc: "A day of fun, competition, and sportsmanship for all students.", image: "https://images.unsplash.com/photo-1547347298-4074fc3086f0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" },
+        { id: 1, name: "Annual Sports Day", icon: <FaVolleyballBall />, desc: "A day of fun, competition, and sportsmanship for all students.", image: "original-sports-day.jpg" },
         { id: 2, name: "Tech Fest", icon: <FaLaptop />, desc: "Showcase your tech skills in coding, robotics, and innovation challenges.", image: "https://srmap.edu.in/wp-content/uploads/2024/03/DSC00042-1024x683.jpg" },
         { id: 3, name: "Cultural Fest", icon: <FaMusic />, desc: "A vibrant celebration of music, dance, and drama from across India.", image: "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" },
         { id: 4, name: "Open Mic Night", icon: <FaMicrophone />, desc: "Share your talents or enjoy performances by your peers.", image: "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" },
@@ -35,17 +35,21 @@ const CampusLife = () => {
 
     // Gallery images
     const galleryImages = [
-        { src: "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80", alt: "Campus building" },
-        { src: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80", alt: "Students in seminar" },
-        { src: "https://images.unsplash.com/photo-1547347298-4074fc3086f0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80", alt: "Sports event" },
-        { src: "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80", alt: "Cultural fest" },
-        { src: "https://images.unsplash.com/photo-1516321497487-e288fb19713f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80", alt: "Study group" },
-        { src: "https://images.unsplash.com/photo-1511988617509-a57c8a288659?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80", alt: "Cafeteria" },
+        { src: "clgimg.jpg", alt: "Campus building" },
+        { src: "pic1.jpg", alt: "Students in seminar" },
+        { src: "pic2.jpg", alt: "Sports event" },
+        { src: "pic3.jpg", alt: "Cultural fest" },
+        { src: "shrey_img1.jpg", alt: "Study group" },
+        { src: "pic5.jpg", alt: "Cafeteria" },
+        { src: "pic4.jpg", alt: "Cafeteria" },
+        { src: "pic7.jpg", alt: "Cafeteria" },
+        { src: "shrey_img2.jpg", alt: "Cafeteria" },
+        { src: "shrey_img3.jpg", alt: "Cafeteria" },
     ];
 
     return (
         <div className="campus-life-page">
-            <div className="campus-life-header" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80')" }}>
+            <div className="campus-life-header" style={{ backgroundImage: "url('campusLife.jpg')" }}>
                 <h1 className={"campus-life-h1"}>Campus Life</h1>
                 <p>Experience a vibrant community, exciting events, and opportunities to grow beyond the classroom.</p>
             </div>

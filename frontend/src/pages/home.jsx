@@ -58,14 +58,10 @@ export const Home = () => {
                         <h4>electrical engineering</h4>
                         <p>Duration: 3yrs</p>
                     </div>
-                     <div className="information-technology courses-img-container">
-                        <img src="cs.jpg" alt="information-technology" />
-                        <h4>Information technology</h4>
-                        <p>Duration: 3yrs</p>
-                    </div>
+
                      <div className=" civil courses-img-container">
-                        <img src="civil.jpg" alt="civil" />
-                        <h4>Civil engineering</h4>
+                        <img src="electronics.jpg" alt="civil" />
+                        <h4>Electronics engineering</h4>
                         <p>Duration: 3yrs</p>
                     </div>
                 </div>
@@ -96,7 +92,7 @@ export const Home = () => {
                             <FcMoneyTransfer  className="real_icons" />
                         </div>
                         <div className="package-details">
-                            <h3>40 lakhs</h3>
+                            <h3>3.8 lakhs</h3>
                             <h4>Highest salary package</h4>
                         </div>
                     </div>
@@ -106,8 +102,8 @@ export const Home = () => {
                             <TbHandClick className="real_icons" />
                         </div>
                         <div className="package-details ">
-                            <h3>3000+</h3>
-                            <h4>Offers from 200+ companies</h4>
+                            <h3>400+</h3>
+                            <h4>Offers from 100+ companies</h4>
                         </div>
                     </div>
                     <div className="avg-package highest-package">
@@ -115,7 +111,7 @@ export const Home = () => {
                             <FaChartSimple className="real_icons" />
                         </div>
                         <div className="package-details ">
-                            <h3>5.4 Lakhs</h3>
+                            <h3>2.4 Lakhs</h3>
                             <h4>Average Package</h4>
                         </div>
                     </div>
@@ -125,7 +121,7 @@ export const Home = () => {
                             <PiUsersFourFill className="real_icons" />
                         </div>
                         <div className="package-details">
-                            <h3>1100+</h3>
+                            <h3>600+</h3>
                             <h4>Total recruiters</h4>
                         </div>
                     </div>
