@@ -30,7 +30,7 @@ const CampusLife = () => {
         { text: "Participate in weekend getaways and campus trips.", image: "https://images.unsplash.com/photo-1527631746610-bca00a040d60?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" },
         { text: "Build lifelong friendships and network with peers.", image: "https://www.unco.edu/college-bound-colorado/images/group-friends-jumping.jpg" },
         { text: "Manage your time and budget to make the most of college life.", image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" },
-        { text: "Express yourself by decorating your dorm or personal space.", image: "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" },
+        { text: "Express yourself by decorating your dorm or personal space.", image: "shreyLogopic.jpg" },
     ];
 
     // Gallery images
@@ -41,10 +41,12 @@ const CampusLife = () => {
         { src: "pic3.jpg", alt: "Cultural fest" },
         { src: "shrey_img1.jpg", alt: "Study group" },
         { src: "pic5.jpg", alt: "Cafeteria" },
-        { src: "pic4.jpg", alt: "Cafeteria" },
-        { src: "pic7.jpg", alt: "Cafeteria" },
-        { src: "shrey_img2.jpg", alt: "Cafeteria" },
-        { src: "shrey_img3.jpg", alt: "Cafeteria" },
+        { src: "pic4.jpg", alt: "student" },
+        { src: "pic7.jpg", alt: "newImg" },
+        { src: "shrey_img2.jpg", alt: "shreyImg" },
+        { src: "shrey_img3.jpg", alt: "gallery" },
+        { src: "shreyLogopic.jpg", alt: "ShreyPic" },
+
     ];
 
     return (
